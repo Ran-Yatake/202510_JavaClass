@@ -9,3 +9,5 @@ test branchに移動しました。
 
 Restrict updatesをオフにした時の挙動を確認します。
 main branchに直でpushはできるのか。
+
+できちゃってたのでやっぱりオンにしました。再度テストします。
