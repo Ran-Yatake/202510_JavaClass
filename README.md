@@ -5,3 +5,7 @@ branchを切り出しました
 ここもうちょっと具体的に書いて。
 test branchに移動しました。
 自分でマージができないようになっていることを確認します。
+
+
+Restrict updatesをオフにした時の挙動を確認します。
+main branchに直でpushはできるのか。
