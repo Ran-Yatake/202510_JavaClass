@@ -1,11 +1,90 @@
 <!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 固定メニューバー -->
+    <header class="menu-bar">
+        <div class="menu-content">
+            <a>TOP</a><a>採用情報</a><a>お知らせ</a>
+        </div>
+    </header>
 
-<html>
-    <head>
-        <meta charset=UTF-8" />
-        <title>画像の表示</title>
-    </head>
-    <body>
-        <img src="img/cat.jpg">
-    </body>
+    <!-- メインコンテンツ -->
+    <main class="main-content">
+
+        <!-- 見出し -->
+        <h1>HTMLを学ぼう！</h1>
+
+            <!-- 文章 -->
+            <p>htmlはwebページを作成するための言語です。</p>
+            <p>いろいろな表現ができます。</p>
+
+        <!-- 横並び画像3つ -->
+        <div class="image-container">
+            <img src="img/cat.jpg" alt="猫の画像1" class="cat-image">
+            <img src="img/cat.jpg" alt="猫の画像2" class="cat-image">
+            <img src="img/cat.jpg" alt="猫の画像3" class="cat-image">
+        </div>
+
+        <!-- リスト -->
+        <ul class="u-list">
+            <li>タグを使ってコンテンツを定義します。</li>
+            <li>タグには属性を付与することもできます。</li>
+            <li><span class="red">CSS</span>、<span class="yellow">Javascript</span>と合わせて用いられます。</li>
+        </ul>
+
+        <!-- 表 -->
+        <table class="html-table">
+            <tr><th></th><th>難易度</th><th>使用頻度</th></tr>
+            <tr><td>HTML</td><td>簡単</td><td>高い</td></tr>
+        </table>      
+        
+        <!-- リンク -->
+        <p>詳細は以下をクリック！</p>
+        <a class="to-sak-web" href="https://www.networkacademy.jp">https://www.networkacademy.jp</a>
+
+        <!-- フォーム -->
+        <form class="contact-form">         
+            <div class="form-group">
+                <label for="name">名前</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label>年齢</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="age" value="10代" required>
+                        <span class="radio-text">10代</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="age" value="20代" required>
+                        <span class="radio-text">20代</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="age" value="30代" required>
+                        <span class="radio-text">30代</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="age" value="40代~" required>
+                        <span class="radio-text">40代~</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <button type="submit" class="submit-btn">送信</button>
+        </form>
+
+    </main>
+</body>
 </html>
