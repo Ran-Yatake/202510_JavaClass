@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>画像の表示</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="menu-bar">メニュー</div>
+
+    <main class="main-container">
+      <h1>HTMLを学ぼう！</h1>
+      <p>HTMLはWebページのコンテンツを作成するための言語です。<br>いろいろな表現ができます。</p>
+
+      <img src="img/cat.jpg" alt="猫の写真">
+      <img src="img/cat.jpg" alt="猫の写真">
+      <img src="img/cat.jpg" alt="猫の写真">
+
+      <ul>
+        <li>タグを使ってコンテンツを定義します。</li>
+        <li >タグには属性を付与することもできます。</li>
+        <li id="p1"><span class="css">CSS</span> と <span class="javascript">javascript</span> と合わせて用いられます。</li>
+      </ul>
+
+      <table border="1">
+        <tr class="black">
+          <th> </th><th>難易度</th><th>使用頻度</th>
+        </tr>
+        <tr>
+          <td>HTML</td><td>簡単</td><td>高い</td>
+        </tr>
+      </table>
+
+      <p>詳細は以下をクリック！</p>
+      <a href="https://www.networkacademy.jp/" target="_blank" rel="noopener noreferrer">
+        https://www.networkacademy.jp/
+      </a>
+
+      <p>お申し込みはこちら↓</p>
+      <form class="application-form" action="form.cgi" method="get">
+        <label for="name">名前：</label>
+        <input id="name" type="text" name="name" size="30">
+        <br>
+
+        年齢：
+        <label><input type="radio" name="group" value="10代">10代</label>
+        <label><input type="radio" name="group" value="20代">20代</label>
+        <label><input type="radio" name="group" value="30代">30代</label>
+        <label><input type="radio" name="group" value="40代">40代</label>
+        <br>
+
+        <label for="email">メールアドレス：</label>
+        <input id="email" type="text" name="email">
+        <br>
+
+        <button type="submit" name="btn" value="送信">送信</button>
+      </form>
+    </main>
+  </body>
+</html>
+
+
