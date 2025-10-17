@@ -35,7 +35,7 @@ public class practice_1 {
       Student s2=new Student("中野",60,30,40);
       Student s3=new Student("森下",50,40,50);
       ArrayList<Student>list=new ArrayList<Student>();
-      list.add(s1);
+      list.add(s1);　
       list.add(s2);
       list.add(s3);
       
