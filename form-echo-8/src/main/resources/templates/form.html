@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja">
+  <meta charset="utf-8">
+  <title>フォーム送信 → サーバー処理（Spring Boot）</title>
+  <body style="font-family:sans-serif; line-height:1.6">
+    <h1>文字を送ってサーバーで処理</h1>
+    <form method="POST" action="/echo">
+      <label>テキスト：
+        <input type="text" name="text" required>
+      </label>
+      <button type="submit">送信</button>
+    </form>
+    <p style="color:#666">
+      ※ このフォームは <code>application/x-www-form-urlencoded</code> で送信します。
+    </p>
+  </body>
+</html>
+""";

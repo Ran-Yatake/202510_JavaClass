@@ -1,0 +1,53 @@
+h1{
+	color:blue;
+	text-align: center;
+}
+.login{
+	
+}
+.button{
+	margin-bottom: 10px;
+		text-align: center;		
+}
+
+.email-and-pass{
+	display:flex;
+	justify-content:center;
+	margin-right:20px;
+	padding 100px;
+}
+.post{
+	text-align:center;
+}
+.ul{
+	text-align:center;
+}
+
+input{
+	width:200px;
+	height:30px;
+	}
+.update{
+	display:flex;
+			justify-content:center;
+			margin-bottom: 10px; 
+			width:100%;
+			
+}
+.regestar{
+	display:flex;
+		justify-content:center;
+		margin-bottom: 10px; 		
+}
+.table-wrapper{
+	display:flex;
+	justify-content:center;
+	}
+	table{
+		width:100%;
+	}
+	form{
+		display:flex;
+		justify-content:center;
+		flex-wrap:wrap;
+		}
